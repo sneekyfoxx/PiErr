@@ -1,0 +1,29 @@
+[project]
+name = "PyError"
+version = "0.1.0"
+description = "An attempt at making Python errors better."
+authors = [
+    {name = "Rayshawn Levy", email = "sneekyfoxx09@gmail.com"}
+]
+maintainers = [
+    {name = "Rayshawn Levy", email = "sneekyfoxx09@gmail.com"}
+]
+readme = "README.md"
+license-files = ["LICEN[CS]E*"]
+requires-python = ">=3.13"
+keywords = ["PyError", "pyerror", "py-error", "py_error", "Error", "error", "error handling"]
+dependencies = []
+classifiers = [
+    "Development Status :: Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13"
+]
+
+[project.url]
+Homepage = "https://github.com/sneekyfoxx/PyError"
+Issues = "https://github.com/sneekyfoxx/PyError/issues"
+
+[build-system]
+requires = "hatchling"
+build-backend = "hatchling.build"
