@@ -82,13 +82,3 @@ class PiError(object):
                 raise TypeError("The 'callback' must be a 'function / method'")
 
         return decorate
-
-@PiError({0: {int}, 1: {int}}, TypeError, "'x' and 'y' must be integers")
-def addition(x: int, y: int) -> PiError | int:
-    return x + y
-
-result = addition('1', 'a')
-if type(result) is PiError:
-    raise result.error(result.cause)
-else:
-    print(result)

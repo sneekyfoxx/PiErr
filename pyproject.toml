@@ -1,6 +1,6 @@
 [project]
 name = "PiError"
-version = "0.0.1"
+version = "0.0.1-alpha"
 description = "An attempt at simplifying Python error propagation."
 authors = [
     {name = "Rayshawn Levy", email = "sneekyfoxx09@gmail.com"}
