@@ -1,7 +1,7 @@
 [project]
-name = "PiErr"
-version = "0.1.0"
-description = "An attempt at making Python errors better."
+name = "PiError"
+version = "0.0.1"
+description = "An attempt at simplifying Python error propagation."
 authors = [
     {name = "Rayshawn Levy", email = "sneekyfoxx09@gmail.com"}
 ]
@@ -11,7 +11,7 @@ maintainers = [
 readme = "README.md"
 license-files = ["LICEN[CS]E*"]
 requires-python = ">=3.13"
-keywords = ["PiErr", "pierr", "pi-err", "pi_err", "Error", "error", "error handling"]
+keywords = ["PiError", "pierror", "pi-error", "pi_error", "Error", "error", "error handling"]
 dependencies = []
 classifiers = [
     "Development Status :: Alpha",
@@ -21,8 +21,8 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/sneekyfoxx/PiErr"
-Issues = "https://github.com/sneekyfoxx/PiErr/issues"
+Homepage = "https://github.com/sneekyfoxx/PiError"
+Issues = "https://github.com/sneekyfoxx/PiError/issues"
 
 [build-system]
 requires = ["hatchling"]
