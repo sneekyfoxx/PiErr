@@ -14,7 +14,7 @@ requires-python = ">=3.13"
 keywords = ["PiError", "pierror", "pi-error", "pi_error", "Error", "error", "error handling"]
 dependencies = []
 classifiers = [
-    "Development Status :: Alpha",
+    "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13"
